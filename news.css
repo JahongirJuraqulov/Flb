@@ -10,7 +10,7 @@ body {
 
 .ctn {
   border: 10px solid black;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header {
@@ -62,4 +62,24 @@ body {
 .aside-tittle-link {
   height: 50%;
   border: 1px solid rgb(73, 66, 66);
+}
+
+.articles {
+  width: 900px;
+  margin: 10px auto;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-link {
+  width: calc(25% - 20px);
+  border: 2px solid black;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-link img {
+  width: 100%;
 }
