@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  font-size: 80px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.box1 { background-color: rgb(245, 6, 57);}
+.box2 { background-color: rgb(114, 107, 95);}
+.box3 { background-color: rgb(9, 177, 243);}
+.box4 { background-color: burlywood;}
+.box5 { background-color: rgb(7, 30, 245);}
+.box6 { background-color: rgba(18, 228, 158, 0.514);}
+.box7 { background-color: rgb(226, 18, 139);}
+.box8 { background-color: rgb(90, 53, 4);}
+.box9 { background-color: rgb(5, 30, 34);}
+.box10 { background-color: rgb(207, 252, 7);}
+
+.ctn {
+  flex-wrap: wrap-reverse;
+  border: 10px solid black;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  height: 100vh;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: baseline; */
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+}
+
+.box {
+  /* flex: 1; */
+  /* width: 30%; */
+}
+
+.box6 {
+  /* font-size: 80px; */
+  /* order: -2 ; */
+  flex: 4;
+}
+
+.box8 {
+  /* font-size: 50px; */
+  /* order: -1; */
+}
+
+.box4 {
+  /* font-size: 60px; */
+  /* order: 1; */
+}
+
+.box1 {
+  /* font-size: 30px; */
+  /* order: 1; */
+}
