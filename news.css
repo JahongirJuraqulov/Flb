@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.ctn {
+  border: 10px solid black;
+  height: 100vh;
+}
+
+.header {
+  width: 900px;
+  border: 3px solid black;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  padding: 7px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.body {
+  width: 900px;
+  margin: 10px auto;
+  display: flex;
+}
+
+.main-tittle {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-tittle p {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.aside-tittle-link, .main-tittle {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0.9));
+}
+
+.aside-tittle {
+  width: 30%;
+}
+
+.for-height {
+  border: 1px solid rgb(177, 52, 52);
+  height: 400px;
+}
+
+.aside-tittle-link {
+  height: 50%;
+  border: 1px solid rgb(73, 66, 66);
+}
