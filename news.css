@@ -83,3 +83,41 @@ body {
 .article-link img {
   width: 100%;
 }
+
+.foot {
+  border: 5px solid red;
+  height: 40vh;
+  background-color: rgb(112, 103, 103);
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 0 auto;
+  font-size: 15px;
+  width: 30%;
+  align-items: center;
+}
+
+.icons {
+  border-radius: 50%;
+  padding: 10px 15px;
+  color: white;
+  background-color: tomato;
+}
+
+.write {
+  display: flex;
+  justify-content: center;
+  color: wheat;
+  font-size: 20px;
+}
+
+.event {
+  margin: 35px 20px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+}
